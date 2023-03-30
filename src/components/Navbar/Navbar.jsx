@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
@@ -26,11 +27,11 @@ const Navbar = () => {
 
         <div className='center'>
             <Link className="link" to="/">
-              <img src={require("../../images/logo.png").default} alt="logo" />
+              <img src={logo} alt="logo" />
             </Link> 
         </div>
          
-        <div className='right'>
+        <div className='right'> 
           <div className='right-links'>
             <div className='item'>
                 <Link className="link" to="/">Homepage</Link> 
